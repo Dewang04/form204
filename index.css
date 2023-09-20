@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #9fc0d5;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+input, textarea{
+    margin: 6%;
+    width: 306px;
+    height: 28px;
+    border: 2px solid #76767f;
+    border-radius: 6px;
+}
+.btn{
+    position: relative;
+  left: 6%;
+  top: 3%;
+  cursor: pointer;
+}
